@@ -1,0 +1,33 @@
+.menu {
+  background-color: #E5E5E5;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px 0;
+}
+li {
+  padding-left: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 40px;
+  font-size: 18px;
+
+  &:hover {
+    background-color: rgba(0,0,0,0.15);
+  }
+}
+a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+}
+span {
+  display: inline-block;
+  line-height: 40px;
+  padding-left: 32px;
+  color: #00547A;
+}

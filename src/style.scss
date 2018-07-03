@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 300;
+  background-color: #eaeaea;
+}
+
+#app {
+  display: flex;
+  //flex-direction: column;
+  //align-items: center;
+}
